@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LocalVoice TTS</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="top-bar">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">LV</span>
+      <span>LocalVoice TTS</span>
+    </div>
+
+    <form class="voice-upload" id="uploadForm">
+      <input id="voiceName" name="voiceName" type="text" placeholder="Voice name" autocomplete="off" />
+      <input id="voiceFile" name="voiceFile" type="file" accept=".wav,.mp3,audio/wav,audio/mpeg" />
+      <button type="submit" class="btn primary">Upload</button>
+    </form>
+  </header>
+
+  <section class="voice-strip" aria-label="Uploaded voices">
+    <span class="strip-label">Voices</span>
+    <div id="voiceTags" class="voice-tags"></div>
+  </section>
+
+  <main class="workspace">
+    <div class="notebook-head">
+      <h1>Dialog Lines</h1>
+      <button id="addLineButton" type="button" class="btn secondary">+ Add Line</button>
+    </div>
+
+    <div class="notebook" id="linesContainer" aria-live="polite"></div>
+  </main>
+
+  <footer class="bottom-bar">
+    <div class="status" id="statusBar">Ready</div>
+    <div class="actions">
+      <button id="combineButton" type="button" class="btn primary">Play Combined</button>
+      <button id="downloadButton" type="button" class="btn success">Download WAV</button>
+    </div>
+  </footer>
+
+  <audio id="audioPreview" controls></audio>
+
+  <script src="renderer.js"></script>
+</body>
+</html>

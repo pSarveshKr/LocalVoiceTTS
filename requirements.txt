@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]
+TTS
+torch
+pydub
+python-multipart

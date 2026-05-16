@@ -1,0 +1,23 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyc
+
+# Local runtime files
+backend/output/*
+!backend/output/.gitkeep
+backend/voices/*
+!backend/voices/.gitkeep
+
+# Environment and system files
+.env
+.DS_Store
+Thumbs.db
+
+# my local files not to include 
+taskDoneTillNow.txt
+LocalVoiceTTS_Documentation.md
+textToVoice.txt
+
