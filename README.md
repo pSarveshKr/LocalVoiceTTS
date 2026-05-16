@@ -6,6 +6,19 @@ LocalVoice TTS lets you type dialog lines, assign a different voice to each line
  
 No internet required. No subscription. No data leaves your computer. Ever.
  
+## 📷 Screenshots
+<p align="center">
+  <img src="./assets/screenshots/screenshot-1.png" alt="LocalVoice TTS main screen" width="700" />
+</p>
+<p align="center">
+  <img src="./assets/screenshots/screenshot-2.png" alt="Voice upload screen" width="700" />
+</p>
+
+## 🎥 Videos
+<p align="center">
+  <a href="./assets/videos/demo-1.mp4">Watch demo video 1</a>
+</p>
+
 ---
  
 ## ✅ What You Can Do
@@ -29,7 +42,7 @@ You only need to install two things — both are free.
 4. Click Install Now
 To confirm it worked, open your terminal and type:
 ```
-python --version
+python3 --version
 ```
 You should see something like `Python 3.10.x`
  
@@ -80,7 +93,7 @@ cd LocalVoiceTTS
 Open your terminal inside the project folder and run these commands one by one:
  
 ```
-python -m venv venv
+python3 -m venv venv
 ```
  
 **Activate it:**
@@ -110,7 +123,8 @@ This will take a few minutes the first time.
 ### Step 4 — Start the app
  
 ```
-python start.py
+source venv/bin/activate
+python3 start.py
 ```
  
 That's it. Your browser will open automatically and the app will be ready to use.
