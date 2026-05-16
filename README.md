@@ -184,7 +184,7 @@ http://127.0.0.1:8000/app
  
 **"Could not connect to backend" error?**
  
-Make sure you ran `python start.py` and it is still running in the terminal.
+Make sure you ran `python3 start.py` and it is still running in the terminal.
  
 **ffmpeg error?**
  
