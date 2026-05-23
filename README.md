@@ -1,4 +1,4 @@
-# 🎙️ LocalVoice TTS (Text-to-Speech)
+# 🎙️ LocalVoice TTS AI (Text-to-Speech AI)
  
 **Give any voice to any text — for free, on your own computer.**
  
