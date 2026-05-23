@@ -2,7 +2,7 @@
  
 **Give any voice to any text — for free, on your own computer.**
  
-LocalVoice TTS lets you type dialog lines, assign a different voice to each line, preview them one by one, and combine everything into a single audio file — ready to download.
+LocalVoice TTS AI lets you type dialog lines, assign a different voice to each line, preview them one by one, and combine everything into a single audio file — ready to download.
  
 No internet required. No subscription. No data leaves your computer. Ever.
  
