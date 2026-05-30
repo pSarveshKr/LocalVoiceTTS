@@ -234,6 +234,14 @@ The final file is saved as `.wav`. You can convert it to `.mp3` using any free a
 MIT License — free to use, modify, and share.
  
 ---
+
+## Support
+
+If CalendarKit made your workflow easier, consider buying me a coffee ☕
+
+[![Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/psarveshkr)
+
+---
  
 ## 🙏 Credits
  
